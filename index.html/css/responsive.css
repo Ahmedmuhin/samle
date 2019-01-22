@@ -1,0 +1,124 @@
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.main-menu ul li {
+	margin-left: 30px;
+}
+.header-btn {
+	padding-left: 35px;
+}
+.main-menu ul li a {
+	font-size: 15px;
+}
+.slider-inner {
+	padding: 260px 50px;
+}
+.slider-inner h1 {
+	font-size: 50px;
+}
+.cta-area .pb-110 {
+	padding-bottom: 75px;
+}
+}
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.header-top-left {
+	padding: 0 15px;
+}
+.header-top-right {
+	padding: 0 15px;
+}
+.header-bottom {
+	padding: 0 5px;
+}
+.header-logo img {
+	height: 60px;
+	padding-top: 20px;
+}
+.main-box {
+	padding: 0 15px
+}
+.single-slider {
+	background-size: cover;
+	min-height: 500px;
+}
+.slider-inner {
+	padding: 150px 0;
+}
+}
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-logo img {
+	height: 60px;
+	padding-top: 20px;
+}
+.header-top-left {
+	padding: 0 15px;
+}
+.header-top-right {
+	padding: 0 15px;
+}
+.header-bottom {
+	padding: 0 5px;
+}
+.main-box {
+	padding: 0 15px
+}
+.single-slider {
+	background-size: cover;
+	min-height: 500px;
+}
+.slider-inner {
+	padding: 150px 0;
+}
+.cta-content {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+}
+.testimonial-content {
+	padding: 87px 40px 30px 40px;
+}
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 767px) {
+.header-logo img {
+	height: 60px;
+	padding-top: 20px;
+}
+.header-top-left {
+	padding: 0 15px;
+}
+.header-top-right {
+	padding: 0 15px;
+}
+.header-bottom {
+	padding: 0 5px;
+}
+.main-box {
+	padding: 0 15px
+}
+.single-slider {
+	background-size: cover;
+	min-height: 500px;
+}
+.slider-inner {
+	padding: 85px 20px;
+}
+.slider-inner h1 {
+	font-size: 40px;
+}
+.slider-inner p {
+	line-height: 1.5;
+}
+.cta-content {
+	padding-left: 25px;
+}
+}
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.testimonial-content {
+	padding: 88px 15px 45px 10px;
+}
+}
